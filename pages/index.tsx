@@ -4,10 +4,8 @@ import { Box } from "@chakra-ui/core";
 
 import NavBar from "@/components/NavBar";
 import Hero from "@/components/sections/Hero";
-import TeamMessage from "@/components/sections/TeamMessage";
 import About from "@/components/sections/About";
 import SponsorShowcase from "@/components/sections/SponsorShowcase";
-import SponsorEvent from "@/components/sections/SponsorEvent";
 import Challenges from "@/components/sections/Challenges";
 import FAQ from "@/components/sections/FAQ";
 import Footer from "@/components/sections/Footer";
