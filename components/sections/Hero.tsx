@@ -43,18 +43,15 @@ function Hero(): ReactElement {
               flexDirection={["column", "column", "row", "row"]}
             >
               <Box w={["100%", "100%", "41%", "37.5%"]}>
-                <BodyAuto paddingBottom={4}>February 5-7, 2021</BodyAuto>
+                <BodyAuto paddingBottom={4}>Marzo 3, 2022</BodyAuto>
                 <Headline3
                   lineHeight={headlineLineHeights}
                   fontSize={headlineFontSizes}
                   whiteSpace="nowrap"
                   zIndex={1}
                 >
-                  Explore <br /> your limits.
+                Tu mejor aliado para<br/>hacer mercado.
                 </Headline3>
-                <BodyAuto paddingTop={4}>
-                  MLH Member Event · Hosted Virtually Worldwide
-                </BodyAuto>
                 <Flex
                   w="max-content"
                   marginTop={[12, 12, 16]}
@@ -62,19 +59,12 @@ function Hero(): ReactElement {
                   alignItems={["flex-start", "flex-start", "center"]}
                 >
                   <Link
-                    href="https://uottahack-4.devpost.com/project-gallery"
+                    href="https://docs.google.com/document/d/13jMTx7txl4LS5qiyfyipYBxknjlJGH0q/edit#"
                     isExternal
                   >
                     <CTAButton rightIcon={RightArrowIcon}>
-                      View Projects
+                      Ver documento
                     </CTAButton>
-                  </Link>
-                  <Link
-                    href="mailto:sponsorship@uottahack.ca"
-                    marginLeft={[0, 0, 8]}
-                    marginTop={[12, 12, 0]}
-                  >
-                    Sponsor uOttaHack
                   </Link>
                 </Flex>
               </Box>
