@@ -27,28 +27,15 @@ function About(): ReactElement {
             marginTop={["5em", "5em", 0]}
           >
             <HeadlineAuto marginBottom="16px">
-              Ottawa&apos;s largest
-              <br />
-              hackathon has
-              <br />
-              turned 4!
+              El mercado terepaima
             </HeadlineAuto>
             <BodyAuto>
-              uOttaHack is uOttawa&apos;s largest hackathon and this year will
-              be its more exciting iteration yet! To commemorate this special
-              milestone, uOttaHack 4 is expanding the hacker experience with new
-              initiatives to create an unforgettable weekend for its hackers,
-              VIRTUALLY!
-            </BodyAuto>
-            <br />
-            <BodyAuto>
-              COVID-19 has brought the greatest medical challenge that world has
-              seen in our generation. For uOttaHack 4, we are bringing hackers
-              together to help build solutions for issues our local community is
-              facing due to COVID-19. After reaching out to multiple local
-              businesses such as hospitals, nursing homes and hotels, we have
-              created challenges that will help the city of Ottawa recover.
-              Details to be announced!
+            El Mercado Terepaima brinda productos a la comunidad 
+            al mejor precio de la mano con la mejor atención y calidad, 
+            teniendo en cuenta el bienestar de nuestros clientes y asociados 
+            para brindar un satisfactorio servicio que refleje los valores de 
+            responsabilidad, competitividad,calidad, transparencia y honestidad 
+            de la organización.
             </BodyAuto>
           </Box>
           <Box

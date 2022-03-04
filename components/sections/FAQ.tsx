@@ -20,9 +20,7 @@ function FAQ(): ReactElement {
           ]}
         >
           <HeadlineAuto marginBottom="40px">
-            Frequently Asked
-            <br />
-            Questions
+            Preguntas frecuentes
           </HeadlineAuto>
           <Accordion>
             {FAQData.map((faqItem, index) => (

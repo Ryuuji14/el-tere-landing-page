@@ -49,21 +49,6 @@ function NavBar(): ReactElement {
         <header>
           <Box position="relative" zIndex={1}>
             <Box position="relative">
-              <Link
-                display={["none", "none", "block", "block"]}
-                width={bannerWidth}
-                position="absolute"
-                right={0}
-                href="https://mlh.io/seasons/2021/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2021-season&utm_content=black"
-                isExternal
-              >
-                <MLH_Banner
-                  width="100%"
-                  height="100%"
-                  viewBox="0 0 100 175.063"
-                  preserveAspectRatio="xMaxYMax"
-                />
-              </Link>
             </Box>
             <Flex align="center" justify="space-between" paddingTop="0.2in">
               <Box width="50px" height="50px">

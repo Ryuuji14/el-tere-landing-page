@@ -51,9 +51,9 @@ function Footer(): ReactElement {
               justify="space-between"
             >
               <Box textAlign={["center", "center", "left", "left"]}>
-                <Wordmark>uOttaHack</Wordmark>
+                <Wordmark>El Tere</Wordmark>
                 <GreyCaption marginBottom={["24px", "24px", 0]}>
-                  The capital of Canada&apos;s largest hackathon.
+                Tu mejor aliado para hacer mercado.
                 </GreyCaption>
               </Box>
               <EmailInput />
@@ -69,23 +69,7 @@ function Footer(): ReactElement {
               >
                 <FooterLink
                   marginY={footerItemMarginY}
-                  marginRight={[0, 0, 0, footerItemMarginX]}
-                  href="https://mlh.io/privacy"
-                  isExternal
-                >
-                  Privacy Policy
-                </FooterLink>
-                <FooterLink
-                  marginY={footerItemMarginY}
-                  marginRight={[0, 0, 0, footerItemMarginX]}
-                  href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
-                  isExternal
-                >
-                  Code of Conduct
-                </FooterLink>
-                <FooterLink
-                  marginY={footerItemMarginY}
-                  href="https://github.com/uOttaHack"
+                  href="https://github.com/Ryuuji14/el-tere-landing-page"
                   isExternal
                 >
                   GitHub
@@ -109,7 +93,7 @@ function Footer(): ReactElement {
                   </Link>
                 ))}
               </Flex>
-              <FooterText>Presented by The uOttaHack Team</FooterText>
+              <FooterText>Presentado por el equipo Aurora.</FooterText>
             </Flex>
           </Box>
         </footer>

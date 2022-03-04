@@ -16,10 +16,10 @@ function IndexPage(): ReactElement {
   return (
     <div>
       <Head>
-        <title>uOttaHack 4</title>
+        <title>El Tere</title>
         <meta
           name="description"
-          content="uOttaHack is uOttawa's largest hackathon and this year will be its more exciting iteration yet! To commemorate this special milestone, uOttaHack 4 is expanding the hacker experience with new initiatives to create an unforgettable weekend for its hackers, VIRTUALLY!"
+          content="Tu mejor aliado para hacer mercado"
         />
       </Head>
 
@@ -27,9 +27,7 @@ function IndexPage(): ReactElement {
         <Box overflow="hidden">
           <NavBar />
           <Hero />
-          <TeamMessage />
           <About />
-          <SponsorEvent />
           <SponsorShowcase />
           <Challenges />
           <FAQ />

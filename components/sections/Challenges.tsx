@@ -12,23 +12,23 @@ import ShopIcon from "../svgs/shop.svg";
 
 const challenges: IChallengeItem[] = [
   {
-    title: "Health",
-    description: `Investigate anything from preventative/hygiene behaviours, supporting frontline workers, treatment and diagnosis development, virtual healthcare, and more.`,
+    title: "Salud para todos",
+    description: `Recaudar fondos de las de los comercios partipantes para instituciones de salud publicas.`,
     Icon: HeartIcon,
   },
   {
-    title: "Education",
-    description: `Look at creative methods of delivering remote learning to students of all ages and aiding teachers/schools in the process.`,
+    title: "Educación para todos",
+    description: `Recaudar fondos de las de los comercios partipantes para instituciones de educación publicas.`,
     Icon: EducationIcon,
   },
   {
-    title: "Community",
-    description: `Produce innovative and creative solutions to combat the negative impacts on mental health and promote safe ways to be social within our communities.`,
+    title: "Comunidad",
+    description: `Evento comunitario todos los domingos a las 10:00 AM.`,
     Icon: CommunityIcon,
   },
   {
-    title: "Business",
-    description: `Assemble a solution revolving around anything from the supply chain, e-commerce, retail logistics, and more.`,
+    title: "Emprendimiento",
+    description: `Apoyo a los adjudicatarios de los locales, que muestran sus nuevos emprendimientos.`,
     Icon: ShopIcon,
   },
 ];
@@ -41,7 +41,7 @@ function Challenges(): ReactElement {
     >
       <Wrapper>
         <HeadlineAuto marginBottom={["2rem", "2rem", "3rem"]}>
-          Challenges
+          Eventos
         </HeadlineAuto>
         <Grid
           gridTemplateColumns={["1fr", "1fr", "1fr", "1fr", "1fr 1fr"]}

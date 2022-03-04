@@ -19,14 +19,14 @@ export enum LocationHashEnum {
 }
 
 export const locations: { href: string; label: string }[] = [
-  { href: `#${LocationHashEnum.About}`, label: "About" },
-  { href: `#${LocationHashEnum.Sponsors}`, label: "Sponsors" },
-  { href: `#${LocationHashEnum.Challenges}`, label: "Challenges" },
-  { href: `#${LocationHashEnum.FAQ}`, label: "FAQ" },
+  { href: `#${LocationHashEnum.About}`, label: "Quienes somos?" },
+  { href: `#${LocationHashEnum.Sponsors}`, label: "Comercios" },
+  { href: `#${LocationHashEnum.Challenges}`, label: "Eventos" },
+  { href: `#${LocationHashEnum.FAQ}`, label: "Preguntas Frecuentes" },
 ];
 
 export const socials: { icon: IconDefinition; href: string }[] = [
-  { icon: faFacebookSquare, href: "https://www.facebook.com/uottahack" },
-  { icon: faInstagram, href: "https://www.instagram.com/uottahack" },
-  { icon: faTwitterSquare, href: "https://twitter.com/uottahack" },
+  { icon: faFacebookSquare, href: "#" },
+  { icon: faInstagram, href: "#" },
+  { icon: faTwitterSquare, href: "#" },
 ];

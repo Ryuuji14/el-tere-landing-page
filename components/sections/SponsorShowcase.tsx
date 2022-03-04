@@ -66,7 +66,7 @@ function SponsorShowcase(): ReactElement {
       marginTop={[styles.sectionTopMargin, styles.sectionTopMargin, "2in"]}
     >
       <Wrapper>
-        <HeadlineAuto>Sponsors</HeadlineAuto>
+        <HeadlineAuto>Comercios</HeadlineAuto>
         <Grid
           marginTop="0.5in"
           width="100%"
@@ -262,7 +262,7 @@ function SponsorShowcase(): ReactElement {
             onMouseLeave={() => setHovered("none")}
           />
         </Grid>
-        <Headline5 marginTop="0.5in">Community Partners</Headline5>
+        <Headline5 marginTop="0.5in">Aliados</Headline5>
         <Grid
           marginTop="0.5in"
           width="100%"
