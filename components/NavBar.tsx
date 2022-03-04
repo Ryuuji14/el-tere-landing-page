@@ -1,8 +1,7 @@
 import { ReactElement } from "react";
 import styled from "@emotion/styled";
-import { Box, Flex, Link, Stack } from "@chakra-ui/core";
+import { Box, Flex, Stack } from "@chakra-ui/core";
 import Logo from "./svgs/logo.svg";
-import MLH_Banner from "./svgs/MLH_Banner.svg";
 import HamburgerMenu from "react-hamburger-menu";
 import theme from "@/src/theme";
 import useStore from "@/src/store";
